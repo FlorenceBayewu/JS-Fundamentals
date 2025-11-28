@@ -5,5 +5,5 @@ const message3 = "JavaScript is amazing";
 
 // Print each
 console.log(message1);
-console.log(message22);
-console.log(message33);
+console.log(message2);
+console.log(message3);
