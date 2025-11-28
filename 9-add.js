@@ -4,4 +4,5 @@ let num1 = parseInt(args[0], 10);
 function add(a, b) {
     return a + b;
 }
+//print output to console
 console.log(add(num1, num2));
