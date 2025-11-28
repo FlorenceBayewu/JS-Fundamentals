@@ -1,7 +1,7 @@
-//script that prints the first argument passed to it
-let args = process.argv[2];
-//2 was used because it excludes node and script path which are 0 and 1 respectively.
-// Check for first argument
+// Get the command-line arguments (excluding "node" and script path)
+const args = process.argv.slice(2);
+
+// Check if the first argument exists
 if (args[0] === undefined) {
     console.log("No argument");
 } else {
