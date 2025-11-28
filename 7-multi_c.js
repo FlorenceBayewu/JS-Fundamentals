@@ -1,5 +1,5 @@
  //script that prints x times “C is fun”
-const arg = process.argv[2];
+const arg = process.argv.slice(2);
 
 // Convert the first argument to an integer
 const x = parseInt(arg[0],10);
