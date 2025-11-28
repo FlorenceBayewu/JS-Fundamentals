@@ -1,7 +1,9 @@
-let line1 = "C is fun";
-let line2 = "Python is cool";
-let line3 = "Javascript is amazing";
-//print message
-console.log(line1);
-console.log(line2);
-console.log(line3);
+// Create variable for each message
+let message1 = "C is fun";
+const message2 = "Python is cool";
+const message3 = "JavaScript is amazing";
+
+// Print each
+console.log(message1);
+console.log(message22);
+console.log(message33);
